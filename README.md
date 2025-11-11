@@ -8,6 +8,16 @@ Write-off of the user's balance
   $ npm i
 ```
 
+###
+Before run you need to create a file .env with env variables. Example:
+```bash
+  POSTGRES_USER=postgres
+  POSTGRES_PASSWORD=postgres
+  POSTGRES_DB=test_task
+  POSTGRES_PORT=5432
+  POSTGRES_HOST=db
+```
+
 ## Running the app
 ```bash
   # development
